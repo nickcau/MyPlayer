@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/gaoyoujian/Desktop/androidproject/meiyou/PeriodProject/MyPlayer/playercore/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b3c7458f313e753015eb15bf672f676400b17d5f">
+        <dex dex="/Users/gaoyoujian/Desktop/androidproject/meiyou/PeriodProject/MyPlayer/app/build/intermediates/pre-dexed/debug/classes_1b37cbbf4783976528a4867c4c3a3f34594a066f.jar" />
+    </item>
+
+</items>
