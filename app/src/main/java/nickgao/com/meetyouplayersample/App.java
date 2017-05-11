@@ -1,7 +1,8 @@
-package nickgao.com.myplayer;
+package nickgao.com.meetyouplayersample;
 
 import android.app.Application;
 
+import com.meetyou.crsdk.util.ImageLoader;
 import com.meetyou.media.player.client.MeetyouPlayerEngine;
 
 import okhttp3.OkHttpClient;
@@ -19,7 +20,7 @@ public class App extends Application{
         super.onCreate();
         mHttpClient = new OkHttpClient.Builder().build();
         MeetyouPlayerEngine.Instance().init(this,true);
-        //ImageLoader.initialize(this, false);
+        ImageLoader.initialize(this, false);
 
     }
 }

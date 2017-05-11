@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="nickgao.com.myplayer" >
+    package="nickgao.com.meetyouplayersample" >
 
     <application
         android:allowBackup="true"
@@ -9,13 +9,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:name=".App">
-        <activity android:name=".MainActivity" >
+        <activity android:name=".VideoPlayTestActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name="com.meetyou.crsdk.video.JCFullScreenActivity"/>
     </application>
 
 </manifest>

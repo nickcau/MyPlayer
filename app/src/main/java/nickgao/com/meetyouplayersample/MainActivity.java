@@ -1,4 +1,4 @@
-package nickgao.com.myplayer;
+package nickgao.com.meetyouplayersample;
 
 import android.graphics.SurfaceTexture;
 import android.os.Bundle;
@@ -19,7 +19,7 @@ import tv.danmaku.ijk.media.player.pragma.DebugLog;
 
 public class MainActivity extends AppCompatActivity{
 
-    //    @Override
+//    @Override
 //    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
 //        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
 //        PermissionsManager.getInstance().notifyPermissionsChange(permissions, grantResults);
